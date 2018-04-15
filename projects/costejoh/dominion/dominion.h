@@ -78,6 +78,17 @@ struct gameState {
 
 struct gameState* newGame();
 
+int playSmithy(int, struct gameState *, int);
+
+int playAdventurer(int, struct gameState *, int, int [], int, int*);
+
+int playCouncilRoom(int, struct gameState *, int);
+
+int playVillage(int, struct gameState *, int);
+
+int playEmbargo(int, struct gameState *, int, int);
+
+
 int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
 		  int k8, int k9, int k10);
 
