@@ -12,7 +12,7 @@ void asserttrue(int);
 
 void testVillage() {
 
-	printf("Testing Council Room card.\n");
+	printf("Testing the Village card.\n");
 	srand(time(NULL));
 	int randomSeed = rand();
 
