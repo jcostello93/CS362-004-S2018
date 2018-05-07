@@ -9,7 +9,6 @@ char inputChar()
 
 	int ASCII = 127; 
 	int letter = rand() % ASCII + 1; 
-	printf("letter is: %d\n", letter); 
 	char c = letter; 
 
 	return c; 
